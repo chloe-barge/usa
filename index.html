@@ -154,4 +154,294 @@
                             </p>
                             </div>
 
-                            {/* Image
+                            {/* Image 2: Nursery School (Restored) */}
+                            <div className="bg-white p-4 shadow-sm border border-gray-100 flex flex-col">
+                            <div className="aspect-[4/3] w-full overflow-hidden mb-4 border border-gray-100">
+                                <img 
+                                src="./images/nursery.jpg" 
+                                alt="Nursery School Children" 
+                                className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500 grayscale-[10%] hover:grayscale-0" 
+                                />
+                            </div>
+                            <h3 className={`text-lg font-bold ${colors.textTitle} mb-2`}>Nursery School Children at Heart Mountain Relocation Center (1943)</h3>
+                            <p className="text-sm text-gray-600 mb-2 leading-relaxed">
+                                Description: A group of young children inside one of the ten internment camps, showing daily life for families there.
+                            </p>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider mt-auto pt-2 border-t border-gray-100">
+                                Source: War Relocation Authority/Library of Congress Japanese relocation photographs
+                            </p>
+                            </div>
+
+                            {/* Image 3: Manzanar */}
+                            <div className="bg-white p-4 shadow-sm border border-gray-100 flex flex-col">
+                            <div className="aspect-[4/3] w-full overflow-hidden mb-4 border border-gray-100">
+                                <img 
+                                src="./images/manzanar.jpg" 
+                                alt="Manzanar War Relocation Center" 
+                                className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500 grayscale-[10%] hover:grayscale-0" 
+                                />
+                            </div>
+                            <h3 className={`text-lg font-bold ${colors.textTitle} mb-2`}>Manzanar War Relocation Center (1943)</h3>
+                            <p className="text-sm text-gray-600 mb-2 leading-relaxed">
+                                Description: Interned Japanese Americans at Manzanar, photographed by Ansel Adams as part of his documentation of life in the camps.
+                            </p>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider mt-auto pt-2 border-t border-gray-100">
+                                Source: Ansel Adams
+                            </p>
+                            </div>
+
+                            {/* Image 4: Boys */}
+                            <div className="bg-white p-4 shadow-sm border border-gray-100 flex flex-col">
+                            <div className="aspect-[4/3] w-full overflow-hidden mb-4 border border-gray-100">
+                                <img 
+                                src="./images/boys.jpg" 
+                                alt="Three Boys Behind the Barbed Wire" 
+                                className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500 grayscale-[10%] hover:grayscale-0" 
+                                />
+                            </div>
+                            <h3 className={`text-lg font-bold ${colors.textTitle} mb-2`}>Three Boys Behind the Barbed Wire (1944)</h3>
+                            <p className="text-sm text-gray-600 mb-2 leading-relaxed">
+                                Description: A powerful image showing children inside the internment camp behind a fence, taken by internee Toyo Miyatake, who smuggled or improvised his camera to document life inside.
+                            </p>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider mt-auto pt-2 border-t border-gray-100">
+                                Source: Toyo Miyatake
+                            </p>
+                            </div>
+                        </div>
+                    </div>
+                    );
+
+                case 'background':
+                    return (
+                    <div className="max-w-3xl mx-auto animate-in fade-in duration-500">
+                        <h2 className={`text-3xl font-serif font-bold mb-8 ${colors.textTitle} border-b border-orange-200 pb-4`}>Historical Background</h2>
+                        
+                        <div className="prose prose-orange prose-lg text-gray-600">
+                        <h3 className={`text-xl font-bold mt-8 mb-4 ${colors.textTitle}`}>Events Leading Up to Internment: Cause or Precursor?</h3>
+                        <p className="mb-6 leading-relaxed">
+                            The internment of Japanese Americans did not happen suddenly. For many years before World War II, Japanese immigrants faced unfair treatment in the United States. They were often not allowed to own land or take certain jobs. Many people treated them differently just because of their race. When Japan attacked Pearl Harbor in 1941, Americans became scared. Fear made people worry that Japanese Americans could be disloyal, even though there was no real proof. Some people think the war caused the internment. But really, it was fear and prejudice that already existed that led the government to act. The war only made it worse.
+                        </p>
+
+                        <h3 className={`text-xl font-bold mt-8 mb-4 ${colors.textTitle}`}>Connecting to Current Events</h3>
+                        <p className="leading-relaxed">
+                            The story of Japanese American internment is still important today. After the September 11 attacks in 2001, many Muslim Americans were treated with suspicion and faced unfair rules. This shows how fear can lead to unfair treatment of entire groups of people. Learning about internment helps us see why civil rights need to be protected, even in scary times. It reminds us that governments and citizens must be careful not to let fear and prejudice take over.
+                        </p>
+                        </div>
+                    </div>
+                    );
+
+                case 'sources':
+                    return (
+                    <div className="max-w-4xl mx-auto animate-in fade-in duration-500 py-4">
+                        <h2 className={`text-3xl font-serif font-bold mb-8 ${colors.textTitle}`}>Sources & Reflection</h2>
+                        
+                        {/* Primary Sources */}
+                        <div className="mb-12">
+                        <h3 className={`text-2xl font-serif font-bold mb-6 ${colors.textTitle} border-b border-orange-200 pb-2`}>Primary Sources</h3>
+                        <ul className="space-y-6">
+                            <li className="bg-white p-6 shadow-sm border-l-4 border-orange-500">
+                            <h4 className="font-bold text-lg text-gray-800">Executive Order 9066 (February 19, 1942)</h4>
+                            <p className="text-sm font-semibold text-gray-600 mb-2">U.S. National Archives</p>
+                            <p className="text-gray-600">Official order authorizing removal of Japanese Americans from the West Coast.</p>
+                            </li>
+                            <li className="bg-white p-6 shadow-sm border-l-4 border-orange-500">
+                            <h4 className="font-bold text-lg text-gray-800">Dorothea Lange Photographs of Internment Camps (1942)</h4>
+                            <p className="text-sm font-semibold text-gray-600 mb-2">Library of Congress</p>
+                            <p className="text-gray-600">Photos showing families with suitcases, highlighting fear and displacement.</p>
+                            </li>
+                        </ul>
+                        </div>
+
+                        {/* Secondary Sources */}
+                        <div className="mb-12">
+                        <h3 className={`text-2xl font-serif font-bold mb-6 ${colors.textTitle} border-b border-orange-200 pb-2`}>Secondary Sources</h3>
+                        <ul className="space-y-6">
+                            <li className="bg-white p-6 shadow-sm border-l-4 border-orange-400">
+                            <h4 className="font-bold text-lg text-gray-800">Daniels, Roger. Prisoners Without Trial (1993)</h4>
+                            <p className="text-sm font-semibold text-gray-600 mb-2">Oxford University Press</p>
+                            <p className="text-gray-600">Historical analysis of Japanese American internment, causes, and effects.</p>
+                            </li>
+                            <li className="bg-white p-6 shadow-sm border-l-4 border-orange-400">
+                            <h4 className="font-bold text-lg text-gray-800">Commission on Wartime Relocation and Internment of Civilians. Personal Justice Denied (1982)</h4>
+                            <p className="text-sm font-semibold text-gray-600 mb-2">U.S. Government Printing Office</p>
+                            <p className="text-gray-600">Investigation concluding internment was racially motivated and unjust.</p>
+                            </li>
+                        </ul>
+                        </div>
+
+                        {/* Reflection Section */}
+                        <div>
+                        <h3 className={`text-2xl font-serif font-bold mb-6 ${colors.textTitle} border-b border-orange-200 pb-2`}>Reflection</h3>
+                        <div className={`space-y-6 text-lg leading-relaxed ${colors.textBody} text-justify`}>
+                            <p>
+                            For my project, I used two primary sources and two secondary sources. The primary sources were Executive Order 9066 and photographs by Dorothea Lange. The executive order showed how the government officially allowed Japanese Americans to be removed from their homes, which directly connects to my essay where I explained how families had to leave quickly with very little time to prepare. The photographs made the event feel real and personal. Seeing families waiting with their suitcases helped me understand the fear and sadness they must have felt, which I tried to describe in my essay.
+                            </p>
+                            <p>
+                            The secondary sources were Roger Daniels’ book Prisoners Without Trial and the report Personal Justice Denied. Daniels helped me understand the history of discrimination against Japanese Americans before the war, which I included in my essay to show that internment did not happen out of nowhere. The report explained that internment was caused by fear, racism, and poor leadership, not by real military threats. This information helped me analyze the government’s decisions and explain in my essay why the internment was unfair.
+                            </p>
+                            <p>
+                            The primary and secondary sources were similar because they all gave important information about internment, but they were different in style and purpose. Primary sources were short, direct, and sometimes emotional, like the photos and the executive order. Secondary sources were longer, explained the context, and helped me understand causes and consequences. I knew the sources were credible because they came from historians, government documents, and trusted archives. The tone also differed: the executive order was formal and legal, the photographs were emotional, and the secondary sources were more analytical.
+                            </p>
+                            <p>
+                            Both types of sources were very useful for my essay. Primary sources helped me describe what actually happened and made the story real for readers. Secondary sources helped me explain why it happened and what it meant in the bigger picture. Using both allowed me to connect the facts, personal stories, and historical analysis, which made my essay stronger and more complete. Together, these sources gave me a full understanding of the internment of Japanese Americans and its significance in history.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    );
+
+                case 'data':
+                    return (
+                    <div className="animate-in fade-in duration-500 max-w-5xl mx-auto">
+                        <h2 className={`text-3xl font-serif font-bold mb-8 ${colors.textTitle}`}>Historical Data & Maps</h2>
+                        
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                        {/* Image 1: Timeline */}
+                        <div className="bg-white p-4 shadow-sm border border-gray-100 flex flex-col">
+                            <div className="flex-1 mb-4 overflow-hidden border border-gray-100">
+                                <img 
+                                src="./images/timeline.png" 
+                                alt="Timeline of Japanese American Internment" 
+                                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                                />
+                            </div>
+                            <h3 className={`text-lg font-bold ${colors.textTitle} mb-2`}>Timeline</h3>
+                            <p className="text-sm text-gray-600 mb-2">
+                                Short timeline of key events in Japanese American internment during World War II, including executive orders, relocation, and camp operations.
+                            </p>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider">
+                                Source: Japanese Internment timeline graphic, U.S. history educational resources.
+                            </p>
+                        </div>
+
+                        {/* Image 2: DOJ Map */}
+                        <div className="bg-white p-4 shadow-sm border border-gray-100 flex flex-col">
+                            <div className="flex-1 mb-4 overflow-hidden border border-gray-100">
+                                <img 
+                                src="./images/map.png" 
+                                alt="Map showing DOJ camps" 
+                                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                                />
+                            </div>
+                            <h3 className={`text-lg font-bold ${colors.textTitle} mb-2`}>DOJ Internment Camps</h3>
+                            <p className="text-sm text-gray-600 mb-2">
+                                Map showing Department of Justice internment camps and relocation centers used during Japanese American internment. This map shows relocation centers and Department of Justice camp locations which is useful for illustrating the geography and spread of the camps.
+                            </p>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider">
+                                Source: Digital History (U.S. educational history resource).
+                            </p>
+                        </div>
+
+                        {/* Image 3: Population Chart */}
+                        <div className="bg-white p-4 shadow-sm border border-gray-100 flex flex-col">
+                            <div className="flex-1 mb-4 overflow-hidden border border-gray-100">
+                                <img 
+                                src="./images/chart.png" 
+                                alt="Chart showing camp populations" 
+                                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                                />
+                            </div>
+                            <h3 className={`text-lg font-bold ${colors.textTitle} mb-2`}>Population Statistics</h3>
+                            <p className="text-sm text-gray-600 mb-2">
+                                Chart showing internment camp peak populations and operation dates.
+                            </p>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider">
+                                Source: Digital History (U.S. educational history resource)
+                            </p>
+                        </div>
+
+                        {/* Image 4: Khan Academy Map */}
+                        <div className="bg-white p-4 shadow-sm border border-gray-100 flex flex-col">
+                            <div className="flex-1 mb-4 overflow-hidden border border-gray-100">
+                                <img 
+                                src="./images/map.png" 
+                                alt="Camp Locations Map" 
+                                className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
+                                />
+                            </div>
+                            <h3 className={`text-lg font-bold ${colors.textTitle} mb-2`}>Camp Locations Map</h3>
+                            <p className="text-sm text-gray-600 mb-2">
+                                Map showing where Japanese American internment and relocation camps were located during WWII.
+                            </p>
+                            <p className="text-xs text-gray-400 uppercase tracking-wider">
+                                Source: Khan Academy historical map.
+                            </p>
+                        </div>
+                        </div>
+                    </div>
+                    );
+
+                default:
+                    return null;
+                }
+            };
+
+            return (
+                <div className={`min-h-screen font-sans ${colors.background} selection:bg-orange-200 selection:text-orange-900`}>
+                
+                {/* Sticky Header */}
+                <header className="sticky top-0 z-50 bg-[#F9F8F4]/95 backdrop-blur-md border-b border-gray-200">
+                    <div className="container mx-auto px-6 pt-6 pb-0">
+                    
+                    {/* Main Title Area */}
+                    <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-6">
+                        <div className="max-w-2xl">
+                            <div className="flex items-center gap-2 mb-2">
+                                <div className="w-3 h-3 bg-orange-600"></div>
+                                <p className="text-xs font-bold text-orange-600 uppercase tracking-widest">by Chloé Barge</p>
+                            </div>
+                        <h1 className={`text-3xl md:text-4xl font-serif font-black tracking-tight leading-tight ${colors.textTitle}`}>
+                            Internment of Japanese Americans <br/>
+                            <span className="text-gray-800">During WWII</span>
+                        </h1>
+                        <p className={`text-sm font-medium mt-2 uppercase tracking-widest ${colors.textBody}`}>
+                            Historical Analysis & Documentation
+                        </p>
+                        </div>
+                    </div>
+
+                    {/* Navigation Bar */}
+                    <nav className="flex space-x-1 overflow-x-auto no-scrollbar pb-1">
+                        {navItems.map((item) => {
+                        const isActive = activeTab === item.id;
+                        const Icon = item.icon;
+                        return (
+                            <button
+                            key={item.id}
+                            onClick={() => setActiveTab(item.id)}
+                            className={`
+                                px-5 py-3 flex items-center gap-2 border-b-2 font-medium text-sm transition-all whitespace-nowrap
+                                ${isActive ? colors.navActive : colors.navInactive}
+                            `}
+                            >
+                            <Icon size={16} className={isActive ? 'text-orange-500' : 'text-gray-400'} />
+                            {item.label}
+                            </button>
+                        );
+                        })}
+                    </nav>
+                    </div>
+                </header>
+
+                {/* Main Content Area */}
+                <main className="container mx-auto px-6 py-12">
+                    {renderContent()}
+                </main>
+
+                {/* Footer */}
+                <footer className="border-t border-gray-200 mt-12 py-8 bg-white">
+                    <div className="container mx-auto px-6 text-center text-sm text-gray-400">
+                    <p>Educational Project • Sources cited from National Archives & Library of Congress</p>
+                    </div>
+                </footer>
+
+                </div>
+            );
+        };
+
+        // Rendu de l'application
+        const root = createRoot(document.getElementById('root'));
+        root.render(<ProjectDocumentation />);
+    </script>
+</body>
+</html>
